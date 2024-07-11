@@ -9,7 +9,7 @@ Norwegian Bokmål.
 
 ## accuracy
 
-The Pattern Recognizers for Norwegian Dates were tested on a translated version of OntoNotes. 
+The Pattern Recognizers for Norwegian dates were tested on a translated version of OntoNotes. 
 Precision: 0.91
 Recall: 0.75
 F1 Score: 0.82
