@@ -1,0 +1,31 @@
+nlp_engine_name: spacy
+models:
+  -
+    lang_code: nb
+    model_name: nb_core_news_lg
+
+ner_model_configuration:
+  model_to_presidio_entity_mapping:
+    PER: PERSON
+    PERSON: PERSON
+    NORP: NRP
+    FAC: LOCATION
+    LOC: LOCATION
+    GPE: LOCATION
+    GPE_LOC: LOCATION
+    LOCATION: LOCATION
+    ORG: ORGANIZATION
+    GPE_ORG: ORGANIZATION
+    ORGANIZATION: ORGANIZATION
+    DATE: DATE_TIME
+    TIME: DATE_TIME
+    PROD: PRODUCT
+    EVT: EVENT
+    DRV: DERIVED
+    MISC: MISCELLANIOUS
+
+  low_confidence_score_multiplier: 0.4
+  low_score_entity_names:
+  -
+  labels_to_ignore:
+  - 
