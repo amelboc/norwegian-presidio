@@ -7,6 +7,13 @@ found [here](https://microsoft.github.io/presidio/supported_entities/).
 Currently this mostly just support PII anonymization for texts in
 Norwegian Bokmål. 
 
+## getting started
+
+Download all files from this repository. 
+
+Run norwegian_text_anonymizer.py in the command line, passing arguments for source file (text to be anonymized) and target file (json file for anonymized text to be saved) and a config yaml file (nb_spacy.yaml or nb_stanza.yaml). 
+
+
 ## accuracy
 
 The Pattern Recognizers for Norwegian dates were tested on a translated version of OntoNotes. 
