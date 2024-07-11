@@ -1,5 +1,5 @@
 # norwegian-presidio
-This is an anonymzation/de-identification tool for unstructured Norwegian text. It enables automatic detecction of Personal Identifiable Information (PII) such as names, geographical places, organizations and Norwegian dates. 
+This is an anonymzation/de-identification tool for unstructured Norwegian text. It enables automatic detection of Personal Identifiable Information (PII) such as names, geographical places, organizations and Norwegian dates. 
 
 The script utilize the [Presidio](https://microsoft.github.io/presidio/)
 library for detecting and anonymizing PII. The supported entities can be 
