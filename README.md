@@ -10,7 +10,7 @@ Norwegian Bokmål.
 ## getting started
 
 Download all files from this repository. 
-Download [Presidio](https://microsoft.github.io/presidio/installation/#__tabbed_1_1)
+Download [Presidio](https://microsoft.github.io/presidio/installation/#__tabbed_1_1).
 
 If using SpaCy NLP model:
 ```
@@ -37,7 +37,7 @@ The script returns the source text, anonymized, to the .json file named for targ
 
 The Pattern Recognizers for Norwegian dates were tested on a translated version of OntoNotes. With a total of 3607 dates to be anonymized, the results were:
 
-Precision: 0.91
+Precision: 0.92
 Recall: 0.75
-F1 Score: 0.82
+F1 Score: 0.83
 
