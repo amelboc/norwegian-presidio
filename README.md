@@ -1,5 +1,5 @@
 # norwegian-presidio
-This is an anonymzation/de-identification tool for unstructured Norwegian text. It enables automatic detection of Personal Identifiable Information (PII) such as names, geographical places, organizations and Norwegian dates. The recognized PII will be replaced by the entity name during anonymization. For example: Oslo, Norway will be anonymized as <GEO-POLITICAL ENTITY\>
+This is an anonymzation/de-identification tool for unstructured Norwegian text. It enables automatic detection of Personal Identifiable Information (PII) such as names, geographical entities, organizations and Norwegian dates. The recognized PII will be replaced by the entity name during anonymization. For example: Oslo, Norway will be anonymized as <GEO-POLITICAL ENTITY\>
 
 The script utilize the [Presidio](https://microsoft.github.io/presidio/)
 library for detecting and anonymizing PII. The supported entities can be 
