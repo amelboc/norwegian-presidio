@@ -3,8 +3,8 @@ This is an anonymzation/de-identification tool for unstructured Norwegian text. 
 
 The script utilize the [Presidio](https://microsoft.github.io/presidio/)
 library for detecting and anonymizing PII. The supported entities can be 
-found [here](https://microsoft.github.io/presidio/supported_entities/).
-Currently this mostly just support PII anonymization for texts in
+found [here](https://microsoft.github.io/presidio/supported_entities/). In addition to the supported entities, the script also loads Spacy NLP model or Stanza NLP model depending on the users choice. Both of these NLP models calls NorNE's NER model which can be found [here](https://github.com/ltgoslo/norne). Additionally, PatternRecognizers have been created to recognize dates, time periods and age in Norwegian in different formats. 
+Currently this just support PII anonymization for texts in
 Norwegian Bokmål. 
 
 ## getting started
