@@ -32,9 +32,20 @@ Example:
 python norwegian_text_anonymizer.py source_file.json  target_file.json nb_stanza.yaml
 ```
 
-The script expects source file in a .txt, .yaml or .json file. If in .txt or .yaml, the text must be in string format. If the source file is a .json file, the text must be in a single list. Either the whole text as one string in the list or split into multiple strings/sentences. 
+The script expects the source file in a .txt, .yaml or .json file. If in .txt or .yaml, the text must be in string format. For example:
+```
+"Han jobbet i Oslo i 24 år. Når har han flyttet til Bergen."
+```
+If the source file is a .json file, the text must be in a single list. Either the whole text as one string in the list or split into multiple strings/sentences. For example:
+```
+["Han jobbet i Oslo i 24 år. Når har han flyttet til Bergen."]
+```
+OR
+```
+["Han jobbet i Oslo i 24 år.", "Når har han flyttet til Bergen."]
+```
 
-If the source text is very large, the script will split the file and do multiple anonymization
+If the source text is very large, the script will split the file into parts in order to complete detection and anonymization. 
 
 The script returns the source text, anonymized, to the .json file named for target file. It it is returned in the form of a string in a list. 
 
