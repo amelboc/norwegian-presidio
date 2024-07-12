@@ -1,5 +1,5 @@
 # norwegian-presidio
-This is an anonymzation/de-identification tool for unstructured Norwegian text. It enables automatic detection of Personal Identifiable Information (PII) such as names, geographical places, organizations and Norwegian dates. 
+This is an anonymzation/de-identification tool for unstructured Norwegian text. It enables automatic detection of Personal Identifiable Information (PII) such as names, geographical places, organizations and Norwegian dates. The recognized PII will be replaced by the entity name during anonymization. For example: Oslo, Norway will be anonymized as <GEO-POLITICAL ENTITY\>
 
 The script utilize the [Presidio](https://microsoft.github.io/presidio/)
 library for detecting and anonymizing PII. The supported entities can be 
@@ -34,9 +34,8 @@ Example: python norwegian_text_anonymizer.py source_file.json  target_file.json 
 ## accuracy
 
 The Pattern Recognizers for Norwegian dates were tested on a translated version of OntoNotes. With a total of 3607 dates to be anonymized, the results were:
+
 Precision: 0.91
-
 Recall: 0.75
-
 F1 Score: 0.82
 
