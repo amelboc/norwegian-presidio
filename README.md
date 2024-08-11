@@ -45,7 +45,7 @@ OR
 ["Han jobbet i Oslo i 24 år.", "Nå har han flyttet til Bergen."]
 ```
 
-If the source text is very large, the script will split the file into parts in order to complete detection and anonymization. To process 67381 sentences of a translated OntoNotes of different lengths (from 8 to 443 characters long), the program takes around 8min minuttes using the stanza config file. 
+If the source text is very large, the script will split the file into parts in order to complete detection and anonymization. 
 
 The script returns the source text, anonymized, to the .json file named for target file. It it is returned in the form of a string in a list. 
 
